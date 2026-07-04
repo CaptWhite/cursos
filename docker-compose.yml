@@ -1,0 +1,16 @@
+services:
+  cursos:
+    image: captwhite/cursos:latest
+    container_name: cursos
+    build:
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "4321:4321"
+    networks:
+      - aster-net
+
+
+networks:
+  aster-net:
+    driver: bridge

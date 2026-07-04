@@ -1,0 +1,25 @@
+services:
+  cursos:
+    image: captwhite/cursos:latest
+    container_name: cursos
+    restart: always
+
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.cursos-http.entrypoints=web"
+      - "traefik.http.routers.cursos-http.rule=Host(`cursos.captwhite.com`)"
+      - "traefik.http.routers.cursos-http.middlewares=redirect-to-https@docker"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      #
+      - "traefik.http.routers.cursos.entrypoints=websecure"
+      - "traefik.http.routers.cursos.rule=Host(`cursos.captwhite.com`)"
+      - "traefik.http.routers.cursos.tls=true"
+      - "traefik.http.routers.cursos.tls.certresolver=myresolver"
+      - "traefik.http.services.cursos.loadbalancer.server.port=4321"
+    networks:
+      - webnet-astro
+
+networks:
+  webnet-astro:
+    external: true
+
