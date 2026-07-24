@@ -1,4 +1,4 @@
-export type MenuTab = 'Cursos' | 'IA' | 'Tab3' | 'Tab4' | 'Tab5' | 'Tab6';
+export type MenuTab = 'Cursos' | 'IA' | 'LOCAL' | 'VPS' | 'Tab5' | 'Tab6';
 
 export interface DocItem {
   filename: string;
@@ -377,7 +377,39 @@ export const docList: DocItem[] = [
     slug: 'inteligencia-artificial-midu',
     description: 'Midudev',
     chapter: '3.1',
+  },
+{
+    filename: 'ia-local.md',
+    menutab: 'IA',
+    id: 'ia-local',
+    slug: 'ia-local',
+    description: 'IA Local',
+    chapter: '4',
   },   
+  {
+    filename: 'ia-local-brais.md',
+    menutab: 'IA',
+    id: 'ia-local-brais',
+    slug: 'brais',
+    description: 'Brais',
+    chapter: '4.1',
+  },
+  {
+    filename: 'webs-docker.md',
+    menutab: 'LOCAL',
+    id: 'webs-docker',
+    slug: 'webs-docker',
+    description: 'webs-docker',
+    chapter: '1',
+  },     
+    {
+    filename: 'webs-VPS.md',
+    menutab: 'VPS',
+    id: 'webs-vps',
+    slug: 'webs-vps',
+    description: 'webs-vps',
+    chapter: '1',
+  },            
 ];
 
 export const docMapById = new Map<string, DocItem>(

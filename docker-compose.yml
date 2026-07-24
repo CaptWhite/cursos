@@ -1,16 +1,17 @@
 services:
   cursos:
-    image: captwhite/cursos:latest
-    container_name: cursos
     build:
+      context: .
       dockerfile: Dockerfile
+    image: captwhite/cursos:local
+    pull_policy: never
+    container_name: cursos
     restart: always
     ports:
-      - "4321:4321"
+      - "8070:4321"
     networks:
-      - aster-net
-
+      - webnet
 
 networks:
-  aster-net:
+  webnet:
     driver: bridge

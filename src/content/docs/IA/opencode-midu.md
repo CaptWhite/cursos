@@ -13,6 +13,42 @@ Este es un resumen detallado y estructurado del curso de **OpenCode**, basado en
 
 ---
 
+En este video te muestro cómo instalarlo, dominar su TUI, optimizar prompts, ahorrar tokens y construir una app real de running paso a paso. Además, exploramos agentes, comandos personalizados, modelos de pago y cómo sacarle el máximo rendimiento en tu flujo de desarrollo.
+
+00:00:00 - ¿Que es OpenCode? \
+00:02:58 - Instalando OpenCode + TUI \
+00:05:30 - Ventajas \
+00:09:32 - Nuestro primer prompt en un proyecto \
+00:11:22 - Más comandos y TUI \
+00:13:57 - Build y Plan \
+00:16:53 - Cómo ahorrar tokens \
+00:20:10 - Modo shell \
+00:22:08 - ¿Por que importa el historial? \
+00:23:25 - Creando un proyecto desde cero \
+00:27:58 - Archivo SPEC.md \
+00:29:39 - Tareas agrupadas \
+00:30:50 - Comando Timeline \
+00:32:50 - Cambiar tema \
+00:34:19 - Notificaciones y revertir cambios \
+00:38:51 - Modelos de Pago (OpenCode GO) + Beneficios \
+00:43:05 - Construyendo aplicacion de running \
+00:52:04 - AGENTS.md \
+01:01:35 - Cambiar entre sesiones \
+01:04:14 - mejores modelos de pago \
+01:05:32 - AgentSkill \
+01:13:00 - Skill para crear videos con HTML, CSS y JS \
+01:23:42 - Reducir el porcentaje usado \
+01:25:00 - Conectar tu suscripción a OpenCode \
+01:33:01 - Comparativa de modelos \
+01:35:14 - Agentes \
+01:42:10 - Crea tus propios comandos \
+01:45:50 - Compartir sesiones \
+01:46:50 - Ejecutar OpenCode desde la terminal \
+01:48:16 - Crear servidor y web \
+01:50:18 - Arguments 
+
+---
+
 # Página 1: Introducción y Fundamentos de OpenCode
 
 **OpenCode** se define como un **agente de código con inteligencia artificial de código abierto**, que funciona directamente en la terminal. Surge como una alternativa potente a herramientas comerciales como Claude Code, destacando por su soporte comunitario y su transparencia. A diferencia de otras opciones pagas, OpenCode permite una personalización profunda y el uso de diversos proveedores de IA.

@@ -13,6 +13,26 @@ Este es un resumen detallado y estructurado del curso sobre integración de Inte
 
 ---
 
+Aprende a integrar inteligencia artificial en tu aplicación web paso a paso. Desde conectar OpenAI en el backend con Node.js y Express, hasta mostrar respuestas en streaming en el frontend. Además, descubre cómo usar un AI Gateway para cambiar entre modelos como GPT, Gemini, Claude o Mistral con una sola línea, incluyendo modelos 100% gratuitos.
+
+Repositorio para recuperar el código del Back-end y del Front-end: https://github.com/midudev/jscamp
+
+Marcadores del video:
+0:00 - Intro \
+01:25 - ¿Que es un monorepo multipaquete \
+06:02 - Configuración de MonoRepo \
+10:48 - Configurando IA para el backend \
+20:54 - Creando API Key de OpenAI \
+22:56 - Cargar ruta al backend \
+28:48 - Integrar llamada al backend \
+39:36 - Rate limit \
+51:09 - Straming de datos \
+58:43 - Ajustando streaming para servirlo el frontend \
+01:02:45 - Utilizar cualquier modelo \
+01:16:05 - Convertir straming de datos en markdown
+
+---
+
 # Página 1: Fundamentos del AI Engineer y Monorepositorios
 
 El curso se centra en transformar a un programador tradicional en un **AI Engineer**, definido como aquel profesional que entiende los conceptos de IA y sabe aplicarlos e integrarlos tanto en el backend como en el frontend. El objetivo principal es crear una API que se conecte a proveedores de IA (como OpenAI) y consumirla desde una web utilizando técnicas de **streaming de datos** para mejorar la experiencia del usuario.

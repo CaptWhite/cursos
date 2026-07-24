@@ -9,7 +9,38 @@
     ></iframe>
 </div>
 <hr>
+
 Este es un resumen exhaustivo y detallado del curso para programadores sobre Inteligencia Artificial en 2026, estructurado en seis secciones principales que equivalen a seis páginas de contenido técnico y estratégico.
+
+---
+
+La Inteligencia Artificial está cambiando la forma en la que programamos.
+Y entender cómo usarla bien empieza a marcar una diferencia enorme entre unos desarrolladores y otros.
+
+En este pequeño curso te explico qué es realmente la IA en 2026, sin humo y sin promesas mágicas. Vas a entender qué hay detrás de los LLM, cómo generan respuestas, por qué a veces alucinan, qué son los tokens y cómo influyen tanto en el coste como en la calidad de los resultados.
+
+Entramos de lleno en las herramientas que ya están transformando el desarrollo de software: autocompletado avanzado, asistentes inteligentes y agentes capaces de leer tu código, modificar archivos y ejecutar comandos por ti.
+
+Trabajamos con Claude Code desde la terminal, vemos qué es el Model Context Protocol (MCP) y por qué es clave para conectar la IA con el mundo real. También entenderás qué son las Agent Skills, cómo amplían lo que un agente puede hacer y cómo combinarlas para crear flujos realmente potentes.
+
+Y lo mejor. También te explico cómo puedes ejecutarlo en local, en tu propia máquina, gratis y sin enviar tu código a la nube.
+
+Este no es un vídeo para mirar pasivamente. Es un vídeo para entender la IA, perderle el miedo y empezar a construir cosas reales con ella como programador.
+
+Capítulos:
+00:00 - Introducción \
+00:37 - ¿Qué es la IA? \
+04:00 - Las 3 fases del entrenamiento de la IA \
+09:31 - ¿Por qué es importante entender cómo funciona? \
+17:20 - Los tokens \
+24:33 - Editores de código con IA \
+43:38 - Agentes de IA \
+56:35 - Claude Code \
+01:11:54 - MCPs \
+01:15:18 - Agent Skills \
+01:26:15 - ¿Cómo ejecutarlo gratis en local? \
+01:30:00 - OpenCode \
+01:33:30 - NotebookLM
 
 ---
 
